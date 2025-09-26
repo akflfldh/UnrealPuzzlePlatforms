@@ -46,7 +46,6 @@ void APlatformTrigger::MyCustomOverlapBegin(UPrimitiveComponent* OverlappedCompo
 	UE_LOG(LogTemp, Display, TEXT("TriggerOn"));
 
 
-
 	for (auto platform : PlatformsToTrigger)
 	{
 		platform->AddActiveTrigger();
